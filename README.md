@@ -1,1 +1,1 @@
-# fourth-hw
+This is a program which fetches data from 100 urls, each containing information about some products. Program uses 5 processes, with 20 threads each, meaning that each thread is responsible for fetching data from a single url.  
