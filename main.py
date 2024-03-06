@@ -14,7 +14,7 @@ def fetch_data(url):
     try:
         response = requests.get(url)
         response.raise_for_status()
-        return {url: response.text}  # Return a dictionary here
+        return {url: response.text}
     except Exception as exc:
         print(f"Error fetching data from {url}: {exc}")
         return {url: None}
